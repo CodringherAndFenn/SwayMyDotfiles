@@ -1,0 +1,3 @@
+timeout 590 'notify-send "Locking in 10 seconds" -t 9500'
+timeout 600 'pgrep -f "Steam_Controller" || swaylock -f'
+before-sleep 'swaylock -f'
